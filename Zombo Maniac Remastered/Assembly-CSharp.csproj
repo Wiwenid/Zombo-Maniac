@@ -45,51 +45,98 @@
     <Analyzer Include="D:\Unity\Editors\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\FCExtensions\FCListExtensions.cs" />
-    <Compile Include="Assets\Scripts\ZombieSpawner.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\ObjectPool\FCObjectPool.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\ObjectPool\FCMultiTypeObjectPooler.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\EnemyScripts\HealthBillboardManager.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\UnittSelections.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Action.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\TakeCoverAction.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\ClassStats.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\LevelScripts\HealthManager.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Utility\CurveControlledBob.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\LevelScripts\TopDownGameManagement.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Utility\FOVKick.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\SpotFocusAction.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\LevelScripts\EnemyFootsteps.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\ReachedPointDecision.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI\AttributesManager.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\EnemyVariables.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI\Follow.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\LevelScripts\LevelTrigger.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Characters\LightGunCharacter\Scripts\CursorTrack.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\WaitedDecision.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\EnemyScripts\EnemyHealth.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\GoToShotSpotAction.cs" />
     <Compile Include="Assets\Scripts\IEntitySpawner.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\LevelScripts\AlertManagement.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\ClearShotDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\ReloadAction.cs" />
     <Compile Include="Assets\Scripts\ObjectPool.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\PlayerControler.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\ObjectPool\FCObjectPooler.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\Obstacle.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\FCAttributes\FCReadOnlyAttribute.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\FCExtensions\FCGameObjectExtensions.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\CloudSpawner.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\MoveLeftCycle.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\FloatingCloud.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\ObjectPool\FCSingleTypeObjectPooler.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Runner Demo\GameControl.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Coins Demo\CoinPoolable.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\FCAttributes\FCInfoAttribute.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Tools\ObjectPool\FCPoolableObject.cs" />
-    <Compile Include="Assets\Scripts\MouseSpawner.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Coins Demo\ChestSpawner.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Demo\Coins Demo\ChestPoolable.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Sprites\EmojiOne.json" />
-    <None Include="Assets\FC Object Pooler\Demo\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <Compile Include="Assets\EnemyAI\Examples\Characters\TopDownCharacter\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\AdvanceCoverDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\ReturnToCoverAction.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\Unit.cs" />
+    <Compile Include="Assets\Scripts\Camera\SpinAndHover.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI\SingleTargetDamage.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\HearDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\EndBurstDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\FocusMoveAction.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\TakeCoverDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\PatrolAction.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\EnemyScripts\EnemyAnimation.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\LevelScripts\LightGunShooterGameManagement.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decision.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\ZombieController.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\LookDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\PlayerScripts\HurtHUD.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\State.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\GeneralStats.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\UnitClick.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\FeelAlertDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Transition.cs" />
+    <Compile Include="Assets\EnemyAI\Setup\DebugAimAction.cs" />
+    <Compile Include="Assets\Scripts\ZombieAI\AoEDamage.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\EngageDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Utility\LerpControlledBob.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\StateSwitcher.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\TargetDeadDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Characters\TopDownCharacter\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Decisions\FocusDecision.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\FindCoverAction.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\LevelScripts\CoverLookup.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\AttackAction.cs" />
+    <Compile Include="Assets\Scripts\Zombies Controller\ZombieSpawner.cs" />
+    <Compile Include="Assets\Scripts\Camera\MouseSpawner.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\EnemyScripts\StateController.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\ExitFocusAction.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\PlayerScripts\SimplePlayerHealth.cs" />
+    <Compile Include="Assets\UnitDrag.cs" />
+    <Compile Include="Assets\EnemyAI\Examples\Scripts\PlayerScripts\PlayerShooting.cs" />
+    <Compile Include="Assets\EnemyAI\Scripts\ScriptableObjects\Actions\SearchAction.cs" />
+    <None Include="Assets\Zololgo\Sci-fi Hologram Shader\Shaders\SciFiHologramShader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -340,10 +387,10 @@
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -712,73 +759,85 @@
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

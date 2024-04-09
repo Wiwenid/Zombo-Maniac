@@ -45,9 +45,11 @@
     <Analyzer Include="D:\Unity\Editors\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Editor\Attributes\FCInfoAttributeDrawer.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Editor\Attributes\FCReadOnlyAttributeDrawer.cs" />
-    <Compile Include="Assets\FC Object Pooler\Scripts\Fallencake\Editor\Attributes\FCHelpInfoMenu.cs" />
+    <Compile Include="Assets\EnemyAI\Editor\SetupProject.cs" />
+    <Compile Include="Assets\Zololgo\Sci-fi Hologram Shader\Scripts\Editor\SciFiHologramShaderGUI.cs" />
+    <Compile Include="Assets\EnemyAI\Editor\SetupTagLayer.cs" />
+    <Compile Include="Assets\EnemyAI\Editor\FieldOfViewEditor.cs" />
+    <Compile Include="Assets\EnemyAI\Editor\SetupRagdoll.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -310,34 +312,34 @@
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -715,79 +717,91 @@
       <HintPath>D:\Unity\Editors\2022.3.20f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>D:\Unity\Untiy Projects\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>D:\GitFork\Zombo-Maniac\Zombo Maniac Remastered\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
